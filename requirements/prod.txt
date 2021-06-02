@@ -15,60 +15,54 @@ chardet==4.0.0
 dj-database-url==0.5.0
     # via django-heroku
 django-cors-headers==3.7.0
-    # via -r /code/requirements/base.in
+    # via -r base.in
 django-environ==0.4.5
-    # via -r /code/requirements/base.in
+    # via -r base.in
 django-health-check==3.16.2
-    # via -r /code/requirements/base.in
+    # via -r base.in
 django-heroku==0.3.1
-    # via -r /code/requirements/base.in
+    # via -r base.in
 django==3.1.5
     # via
-    #   -r /code/requirements/base.in
+    #   -r base.in
     #   django-cors-headers
     #   django-health-check
     #   django-heroku
     #   djangorestframework
 djangorestframework==3.12.2
-    # via -r /code/requirements/base.in
+    # via -r base.in
 gunicorn==20.0.4
-    # via -r /code/requirements/base.in
+    # via -r base.in
 idna==2.10
     # via requests
-importlib-metadata==3.4.0
-    # via markdown
 markdown==3.3.3
-    # via -r /code/requirements/base.in
+    # via -r base.in
 pillow==8.1.0
-    # via -r /code/requirements/base.in
+    # via -r base.in
 psycopg2==2.8.6
     # via
-    #   -r /code/requirements/base.in
+    #   -r base.in
     #   django-heroku
 python-dateutil==2.8.1
-    # via -r /code/requirements/base.in
+    # via -r base.in
 pytz==2020.5
     # via django
 requests==2.25.1
     # via stripe
 sentry-sdk==0.19.5
-    # via -r /code/requirements/base.in
+    # via -r base.in
 six==1.15.0
     # via python-dateutil
 sqlparse==0.4.1
     # via django
 stripe==2.55.1
-    # via -r /code/requirements/base.in
-typing-extensions==3.7.4.3
-    # via importlib-metadata
-urllib3==1.26.3
+    # via -r base.in
+urllib3==1.26.5
     # via
     #   requests
     #   sentry-sdk
 whitenoise==5.2.0
     # via django-heroku
-zipp==3.4.0
-    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
